@@ -560,7 +560,7 @@ footer {
 .speech {
   position: relative;
   color: rgb(66, 220, 225);
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style:initial;
   font-size: 1.5rem;
 }
@@ -858,8 +858,10 @@ div.projects-card:hover {
 
 @media screen and (max-width: 768px) {
   .projects-carousel-container {
+    flex: auto;
     padding: 0 20px;
     flex-direction: center;
+    
   }
   .projects-carousel-track {
     display: flex;
@@ -867,8 +869,9 @@ div.projects-card:hover {
     will-change: transform;
   }
   .projects-card{
-    width: 80px;
     flex: 0 0 100%; /* Prevent auto-resizing */
+    width: 80px;
+    
   }
   .projects-card:hover {
     transform: translateY(-10px);

@@ -180,33 +180,6 @@ function slideLeft() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Projects section carousel logic
 /*let projectsScrollIndex = 0;
 const projectsTrack = document.getElementById("projectsCarousel");
@@ -282,6 +255,7 @@ function updateCarouselPosition() {
   const offset = projectsScrollIndex * cardWidth;
   projectsTrack.style.transform = `translateX(-${offset}px)`;
 }
+
 
 // Recalculate on window resize
 window.addEventListener('resize', () => {
