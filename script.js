@@ -52,9 +52,8 @@ function toggleMenu() {
 const typedText = document.querySelector("#typewriter");
 const textArray = [
   "Data Analyst",
-  "AI/ML Enthusiast",
   "Open Source Contributor",
-  "Data Explorer"
+  "Web Developer"
 ];
 let textIndex = 0;
 let charIndex = 0;
@@ -327,3 +326,5 @@ function updateCarouselPosition() {
 window.addEventListener('resize', () => {
   updateCarouselPosition();
 });*/
+
+
